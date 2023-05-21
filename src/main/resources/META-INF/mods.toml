@@ -9,8 +9,7 @@ logoFile="feathers.png"
 credits="BookerCatch made some amazing changes!"
 authors="Elenai"
 description='''
-Feathers is a stamina system for Minecraft, it adds a set of blue feathers to the hotbar to be spent by other mods, as well as an armor weight system to the game.
-'''
+Feathers is a stamina system for Minecraft, it adds a set of blue feathers to the hotbar to be spent by other mods, as well as an armor weight system to the game.'''
 [[dependencies.feathers]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
@@ -21,6 +20,6 @@ Feathers is a stamina system for Minecraft, it adds a set of blue feathers to th
 [[dependencies.feathers]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.19.3,1.20)"
     ordering="NONE"
     side="BOTH"
