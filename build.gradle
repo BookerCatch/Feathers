@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.1.1'
+version = '1.1.2'
 group = 'com.elenai.feathers'
 archivesBaseName = 'feathers'
 
@@ -95,6 +95,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.3-44.1.23'
     compileOnly("curse.maven:overflowing-bars-852662:4515133")
+    implementation fg.deobf("curse.maven:classic-bars-317642:4430475")
 }
 
 
